@@ -1,0 +1,15 @@
+<extension>
+    <modules>
+        <module>
+            <id>Make sites private by default in create site dialog</id>
+            <version>1.0</version>
+            <auto-deploy>true</auto-deploy>
+            <customizations>
+                <customization>
+                    <targetPackageRoot>org.alfresco.modules</targetPackageRoot>
+                    <sourcePackageRoot>dk.magenta.sites-private</sourcePackageRoot>
+                </customization>
+            </customizations>
+        </module>
+    </modules>
+</extension>
